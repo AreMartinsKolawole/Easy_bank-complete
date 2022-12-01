@@ -1,0 +1,220 @@
+/* Mobile */
+@media only screen and (max-width: 680px) {
+  .container {
+    margin-top: 70px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    padding: 0;
+    height: 0px;
+  }
+
+  .navbar .logo {
+    margin-left: -900px;
+  }
+
+  .navbar .logo1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .nav-links {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    height: 55%;
+    justify-content: center;
+    background-color: white;
+    margin-top: -300%;
+    transition: all 0.7s ease;
+    margin-left: 0px;
+  }
+
+  .nav-links li a {
+    font-size: 4vmin;
+    margin-left: 40%;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .nav-links .navbar-middle {
+    display: block;
+    margin-top: 1%;
+  }
+
+  .navbar-middle li {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-middle li a {
+    margin-bottom: 3%;
+    margin-left: -30px;
+    justify-content: center;
+  }
+
+  .navbar-middle li a:hover {
+    font-size: 5vmin;
+  }
+
+  .navbar-middle li:hover::after {
+    width: 0%;
+  }
+
+  .navbar-right a {
+    margin-left: -900px;
+  }
+
+  .container .body {
+    background-image: none;
+    margin-top: 0x;
+    margin-left: 0%;
+  }
+
+  .container .text .header-content {
+    height: auto;
+    width: 81%;
+    margin-left: 9%;
+    margin-top: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-menu {
+    margin-top: 0px;
+  }
+
+  .container .stuff .row .col {
+    width: 100%;
+  }
+
+  .container .stuff .row .col h4 {
+    width: 50px;
+  }
+
+  .explore .rol .col img {
+    width: 100%;
+    height: 20%;
+  }
+
+  .container .filter {
+    position: inherit;
+    background-color: hsl(233, 26%, 24%);
+    list-style: none;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    width: auto;
+    height: 350px;
+  }
+
+  .filter .links a img {
+    margin-top: 20px;
+    padding: 3px;
+  }
+
+  .filter .links {
+    margin-bottom: 10px;
+  }
+
+  .filter .l-links-l {
+    margin: 0;
+    padding: 0;
+  }
+
+  .filter .l-links-l a {
+    padding: 5px;
+  }
+
+  .button .lik li {
+    margin: -10px;
+    padding: 0;
+  }
+
+  .button .lik li button {
+    padding: 3% 10%;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .container .stuff {
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .container .stuff .title h3 {
+    font-size: 5vmin;
+  }
+
+  .container .stuff .title p {
+    font-size: 3vmin;
+  }
+
+  .stuff .row {
+    display: block;
+  }
+
+  .stuff .row .col {
+    width: auto;
+  }
+
+  .container .stuff .row .col p {
+    font-size: 3vmin;
+    color: hsl(233, 8%, 62%);
+    width: auto;
+    padding-bottom: 30px;
+  }
+
+  .container .stuff .row .col h4 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: hsl(233, 26%, 24%);
+    font-size: 3vmin;
+    width: 100%;
+  }
+
+  .container .explore .rol {
+    display: block;
+  }
+
+  .container .explore .rol .col {
+    width: auto;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .container .explore .rol .col h5 {
+    color: hsl(233, 8%, 62%);
+    font-size: 2.5vmin;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+  .container .explore .rol .col h3 a {
+    color: hsl(233, 26%, 24%);
+    font-size: 4vmin;
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 10px;
+  }
+
+  .container .explore .rol .col p {
+    color: hsl(233, 8%, 62%);
+    font-size: 3vmin;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+}

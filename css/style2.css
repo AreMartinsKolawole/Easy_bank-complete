@@ -1,0 +1,31 @@
+form {
+  display: block;
+  margin-top: -80px;
+  opacity: none;
+  width: 90%;
+}
+
+form h3 {
+  margin-bottom: 30px;
+  font-size: 5vmin;
+}
+
+form input {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  border: none;
+}
+
+form button {
+  margin: 5px;
+  padding: 12px;
+  width: 115%;
+  margin-top: 20px;
+}
+
+form .container-signin {
+  margin-top: 20px;
+  margin-left: 20px;
+}
